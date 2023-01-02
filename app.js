@@ -1,37 +1,3 @@
-// function Person(fName, lName) {
-//     this.firstName = fName;
-//     this.lastname = lName;
-// }
-//
-// var p1 = new Person("Alex", "Pupkin");
-// // console.log(p1);
-//
-// Person.prototype.getFullName = function () {
-//     return this.firstName + " " + this.lastname;
-// }
-// console.log(p1.hasOwnProperty("getFullName"));
-// console.log(p1.hasOwnProperty("firstName"));
-// console.log(p1.hasOwnProperty("lastname"));
-// console.log(p1.getFullName());
-//
-// function Employee(fName, lName, eId) {
-//     Person.call(this, fName, lName);
-//     this.empId = eId;
-// }
-//
-// Employee.prototype = Object.create(Person.prototype);
-//
-// Employee.prototype.constructor = Employee;
-//
-// Employee.prototype.getEmpInfo = function () {
-//     return [this.empId, this.firstName, this.lastname]
-// }
-//
-// var e1 = new Employee("Jean", "Harris", 19);
-// console.log(e1.getEmpInfo());
-// console.log(e1.getFullName());
-
-
 function Block(color) {
 
     this.color = color;
@@ -84,6 +50,55 @@ eventListenerAdder(greenBlock, green);
 eventListenerAdder(blackBlock, black);
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function Person(fName, lName) {
+//     this.firstName = fName;
+//     this.lastname = lName;
+// }
+//
+// var p1 = new Person("Alex", "Pupkin");
+// // console.log(p1);
+//
+// Person.prototype.getFullName = function () {
+//     return this.firstName + " " + this.lastname;
+// }
+// console.log(p1.hasOwnProperty("getFullName"));
+// console.log(p1.hasOwnProperty("firstName"));
+// console.log(p1.hasOwnProperty("lastname"));
+// console.log(p1.getFullName());
+//
+// function Employee(fName, lName, eId) {
+//     Person.call(this, fName, lName);
+//     this.empId = eId;
+// }
+//
+// Employee.prototype = Object.create(Person.prototype);
+//
+// Employee.prototype.constructor = Employee;
+//
+// Employee.prototype.getEmpInfo = function () {
+//     return [this.empId, this.firstName, this.lastname]
+// }
+//
+// var e1 = new Employee("Jean", "Harris", 19);
+// console.log(e1.getEmpInfo());
+// console.log(e1.getFullName());
 
 
 
